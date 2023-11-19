@@ -24,4 +24,5 @@ cd dist || exit 1
 
 for url in "${jres[@]}"; do
     curl -L -O "$url"
+    sleep 10
 done
